@@ -1,4 +1,4 @@
-package blog.baiyan.github.number;
+package blog.baiyan.github.thread;
 
 import java.text.SimpleDateFormat;
 import java.util.Random;
