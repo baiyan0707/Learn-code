@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class RedissonLock {
 
-    private static Logger logger = LoggerFactory.getLogger(RedissonLock.class);
+    private static final Logger logger = LoggerFactory.getLogger(RedissonLock.class);
     private static final String LOCKSTR = "LOCK";
 
     public static void main(String[] args) {

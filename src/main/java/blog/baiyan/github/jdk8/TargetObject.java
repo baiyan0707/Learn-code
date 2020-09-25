@@ -20,4 +20,8 @@ public class TargetObject {
     private void privateMethod() {
         System.out.println("value is " + value);
     }
+
+    static void staticMethod(String s){
+        System.out.println("static method: " + s);
+    }
 }

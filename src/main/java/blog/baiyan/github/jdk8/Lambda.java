@@ -23,12 +23,12 @@ public class Lambda {
         System.out.println(str);
         System.out.println("-------");
 
-        System.out.println(String.format("1,%o",2));
+        System.out.println(String.format("1,%o", 2));
         System.out.println("-------");
 
-        Runnable task = () ->{
+        Runnable task = () -> {
             String threadName = Thread.currentThread().getName();
-            System.out.println("hello "+threadName);
+            System.out.println("hello " + threadName);
         };
         task.run();
         Thread thread = new Thread(task);
