@@ -10,7 +10,7 @@ public class TargetObject {
     private final String value;
 
     public TargetObject() {
-        value = "BaiYan";
+        value = "baiyan";
     }
 
     public void publicMethod(String s) {

@@ -4,7 +4,8 @@ spring:
     port: 6379
     database: 0
   autoconfigure:
-    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,
+             org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
 logging:
   pattern:
     level: info
