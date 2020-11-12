@@ -70,7 +70,7 @@ public class Stack {
 
     /**基于链式存储，不连续存储的非线性实现**/
     private static class Node<Object>{
-        private Object data;
+        private final Object data;
 
         private Node next;
 

@@ -1,4 +1,4 @@
-package blog.baiyan.github.designpatterns;
+package blog.baiyan.github.designpatterns.single;
 
 /**
  * @author bai

@@ -16,8 +16,8 @@ public class LinkedList {
     /**
      * 双端链表
      */
-    private class Node{
-        private Object data;
+    private static class Node{
+        private final Object data;
         private Node prev;  // 上一个
         private Node next;  // 下一个
 
